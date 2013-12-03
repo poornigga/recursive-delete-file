@@ -5,7 +5,7 @@
 # 
 #         USAGE:  ./rdf.sh foo
 # 
-#   DESCRIPTION:  
+#   DESCRIPTION:  e.g. ./rdf.sh .svn  // delete all .svn folders recursive.
 # 
 #       OPTIONS:  ---
 #  REQUIREMENTS:  ---
