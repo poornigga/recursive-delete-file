@@ -3,9 +3,9 @@
 #
 #          FILE: rrm.sh 
 # 
-#         USAGE:  ./rrm.sh foo
+#         USAGE:  rrm.sh foo
 # 
-#   DESCRIPTION:  e.g. ./rrm.sh .svn  // delete all .svn folders recursive.
+#   DESCRIPTION:  eg. rrm.sh .svn  // delete all .svn folders recursively.
 # 
 #       OPTIONS:  ---
 #  REQUIREMENTS:  ---

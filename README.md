@@ -1,4 +1,4 @@
-recursive-delete-file
+recursively-delete-file
 =====================
 
 Put it in your $PATH and chmod +x.
