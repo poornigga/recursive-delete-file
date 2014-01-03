@@ -1,11 +1,11 @@
 recursive-delete-file
 =====================
 
-recursive delete file, etc. .svn;
+Put it in your $PATH and chmod +x
+rename it also be ok, mv rrm.sh rrm
+enjoy it.
 
 usage :
-    * ./rrm.sh foo
 
-    * ./rrm.sh bar
-
-    * ./rrm.sh .svn
+    rrm foo
+    rrm .svn
