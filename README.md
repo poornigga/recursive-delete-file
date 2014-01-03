@@ -4,8 +4,8 @@ recursive-delete-file
 recursive delete file, etc. .svn;
 
 usage :
-    * ./rdf.sh foo
+    * ./rrm.sh foo
 
-    * ./rdf.sh bar
+    * ./rrm.sh bar
 
-    * ./rdf.sh .svn
+    * ./rrm.sh .svn
