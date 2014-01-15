@@ -5,7 +5,7 @@
 # 
 #         USAGE:  ./rrm.sh foo
 # 
-#   DESCRIPTION:  e.g. ./rdf.sh .svn  // delete all .svn folders recursive.
+#   DESCRIPTION:  e.g. ./rrm.sh .svn  // delete all .svn folders recursive.
 # 
 #       OPTIONS:  ---
 #  REQUIREMENTS:  ---
@@ -25,12 +25,15 @@ COLOR_NORMAL="\033[0m"
 CHECK_MARK="\xe2\x9c\x93"
 CLEAR_SCREEN="\x1b[H\x1b[2J"
 
+
+cmdname=`basename $0`
+
 function usage () {
     echo -ne "${CLEAR_SCREEN}"
-    echo -ne "\n${COLOR_BRIGHT_WHITE}rdf.sh, a small tool, be used for recursivly delete specified file or folder.${COLOR_NORMAL}\n"
-    echo -ne "\nUsage :\n"
-    echo -ne "\t${COLOR_BOLD_RED} `basename $0`${COLOR_GREEN} filename [ or foldername ]${COLOR_NORMAL}\n"
-    echo -ne "\n\t ${COLOR_BOLD_RED}`basename $0` ${COLOR_GREEN}.svn ${COLOR_NORMAL}  < will be delete all .svn folder> \n\n"
+    echo -ne "\n${COLOR_BRIGHT_WHITE}${cmdname}, a small tool, be used for recursivly delete specified file or folder.${COLOR_NORMAL}\n"
+    echo -ne "\nUSAGE :\n"
+    echo -ne "\t${COLOR_BOLD_RED} ${cmdname}${COLOR_GREEN} filename [ or foldername ]${COLOR_NORMAL}\n"
+    echo -ne "\n\t ${COLOR_BOLD_RED}${cmdname} ${COLOR_GREEN}.svn ${COLOR_NORMAL}  < will be delete all .svn folder recursivly > \n\n"
 }
 
 if [ $# -lt 1 ]; then
