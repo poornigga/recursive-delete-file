@@ -25,7 +25,7 @@ COLOR_NORMAL="\033[0m"
 CHECK_MARK="\xe2\x9c\x93"
 
 function usage () {
-    echo -ne "\n${COLOR_BRIGHT_WHITE}rdf.sh, a small tool, be used for recursivly delete specified file or folder.${COLOR_NORMAL}\n"
+    echo -ne "\n${COLOR_BRIGHT_WHITE}rrm.sh, a small tool, be used for recursivly delete specified file or folder.${COLOR_NORMAL}\n"
     echo -ne "\nUsage :\n"
     echo -ne "\t `basename $0` filename [ or foldername ]\n"
     echo -ne "\n\t `basename $0` .svn   < will be delete all .svn folder> \n\n"
