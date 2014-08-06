@@ -72,5 +72,6 @@ fi
 find ./ -name "$1" | grep "$1$" | sed -e 's/^/rm -rf /g' | /bin/bash
 
 echo -e "\n${COLOR_GREEN}Success ${COLOR_BOLD_RED} ${CHECK_MARK} ${COLOR_NORMAL}\n"
+
 exit 0
 
